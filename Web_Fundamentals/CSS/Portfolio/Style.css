@@ -3,12 +3,14 @@
     padding: 0;
 }
 
+/* If you don't know what this is slap yourself */
 #wrapper {
-    min-height: 1000px;
+    height: 1000px;
     width: 1120px;
     background-color: #6F5964;
 }
 
+/* Name and title box in white at the top */
 #header {
     height: 70px;
     min-width: 100px;
@@ -20,6 +22,7 @@
     justify-content: space-between;
 }
 
+/* Mark Walberg picture formatting, he don't fuck around */
 #me {
     height: 300px;
     width: 480px;
@@ -29,6 +32,7 @@
     border-color: #C0C0C0;
 }
 
+/* Wrapper for the about me/bro section */
 #about {
     height: 310px;
     width: 537px;
@@ -38,6 +42,7 @@
     vertical-align: top;
 }
 
+/* Wrapper for the 3 content boxes with website, description, and coding languages */
 #content {
     height: 310px;
     min-width: 0px;
@@ -45,6 +50,7 @@
     justify-content:space-evenly;
 }
 
+/* h2 titles in the grey boxes above pink boxes */
 .desc {
     height: 20px;
     width: 0 auto;
@@ -54,6 +60,7 @@
     align-items: center;
 }
 
+/* 3 content boxes with info */
 .info {
     height: 540px;
     width: 334px;
@@ -61,12 +68,20 @@
     margin: 20px 0px 0px 0px
 }
 
-.tools {
+/* coding langauges used formatting "START" */
+.tools1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tools2 {
     height: 40px;
     width: 40px;
     padding: 10px;
 }
+/* coding languages used formatting "END" */
 
+/* Links/buttons at the bottom of the content boxes */
 .button {
     display: flex;
     justify-content: center;
@@ -75,6 +90,13 @@
     border: solid;
     border-radius: 10px;
     text-decoration: none;
+}
+
+/* The ending piece to this shit at the bottoms with links */
+#footer {
+    height: 70px;
+    width: 1120px;
+    background-color: #F6F6F6;
 }
 
 ul{
