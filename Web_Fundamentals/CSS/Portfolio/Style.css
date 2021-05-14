@@ -42,12 +42,6 @@
     vertical-align: top;
 }
 
-/* Wrapper for the 3 content boxes with website, description, and coding languages */
-#content {
-    display: flex;
-    justify-content:space-evenly;
-}
-
 /* h2 titles in the grey boxes above pink boxes */
 .desc {
     height: 20px;
@@ -67,6 +61,12 @@
     background-color: #888794;
     display: flex;
     align-items: center;
+}
+
+/* Wrapper for the 3 content boxes with website, description, and coding languages */
+#content {
+    display: flex;
+    justify-content:space-evenly;
 }
 
 /* 3 content boxes with info */
