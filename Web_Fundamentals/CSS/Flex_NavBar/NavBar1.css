@@ -1,0 +1,14 @@
+.center-box {
+    width: 1400px;
+    height: 600px;
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-item {
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+}

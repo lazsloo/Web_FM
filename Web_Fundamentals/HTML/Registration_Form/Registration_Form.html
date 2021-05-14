@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <title>Turn back while you still can</title>
+    </head>
+    <form action="Screwed.php" method="POST">
+        <p>Registration Form</p>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+            <br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+            <br><br>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email">
+            <br><br>
+        <p>Please select gender:</p>
+        <select name="gender">
+            <option value=""></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="decline">Perfer not to say</option>
+        </select>
+            <br><br>
+        <p>Select ethnicity:</p>
+        <input type="radio" id="americanIndianOrAlaskaNative" name="ethnicity" value="americanIndianOrAlaskaNative">
+        <label for="americanIndianOrAlaskaNative">American Indian or Alska Native</label>
+            <br>
+        <input type="radio" id="asian" name="ethnicity" value="asian">
+        <label for="asian">Asian</label>
+            <br>
+        <input type="radio" id="blackOrAfricanAmerican" name="ethnicity" value="blackOrAfricanAmerican">
+        <label for="blackOrAfricanAmerican">Black or African American</label>
+            <br>
+        <input type="radio" id="hispanicOrLatino" name="ethnicity" value="hispanicOrLatino">
+        <label for="hispanicOrLatino">Hispanic or Latino</label>
+            <br>
+        <input type="radio" id="nativeHawaiianOrPacificIslander" name="ethnicity" value="nativeHawaiianOrPacificIslander">
+        <label for="nativeHawaiianOrPacificIslander">Native Hawaiian or Pacific Islander</label>
+            <br>
+        <input type="radio" id="white" name="ethnicity" value="white">
+        <label for="white">White</label>
+            <br>
+        <input type="radio" id="decline" name="ethnicity" value="decline">
+        <label for="decline">Perfer not to say</label>
+            <br><br>
+        <label for="birth_date">Birth Date:</label>
+        <input type="date" id="birth_date" name="birth_date" value="1930-01-01" min="1930-01-01" max="2003-01-01">
+            <br><br>
+        <p>Favorite superhero?</p>
+        <textarea name="description"></textarea>
+            <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="passwordConfirmation">Confirm Password:</label>
+        <input type="password" id="passwordConfirmation" name="passwordConfirmation">
+            <br><br>
+        <input type="submit" value="You just made a big mistake">
+    </form>
+</html>
