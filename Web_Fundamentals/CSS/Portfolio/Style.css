@@ -5,7 +5,7 @@
 
 /* If you don't know what this is slap yourself */
 #wrapper {
-    height: 1000px;
+    height: 1100px;
     width: 1120px;
     background-color: #6F5964;
 }
@@ -44,8 +44,6 @@
 
 /* Wrapper for the 3 content boxes with website, description, and coding languages */
 #content {
-    height: 310px;
-    min-width: 0px;
     display: flex;
     justify-content:space-evenly;
 }
@@ -53,8 +51,19 @@
 /* h2 titles in the grey boxes above pink boxes */
 .desc {
     height: 20px;
-    width: 0 auto;
+    width: auto 0;
     padding: 10px;
+    background-color: #888794;
+    display: flex;
+    align-items: center;
+}
+
+/* h2 titles for the tools used/shit I used */
+.desc2 {
+    height: 20px;
+    width: auto 0;
+    padding: 10px;
+    margin: 80px 0px 0px 0px;
     background-color: #888794;
     display: flex;
     align-items: center;
@@ -62,7 +71,7 @@
 
 /* 3 content boxes with info */
 .info {
-    height: 540px;
+    height: 640px;
     width: 334px;
     background-color: #DDCFDC;
     margin: 20px 0px 0px 0px
