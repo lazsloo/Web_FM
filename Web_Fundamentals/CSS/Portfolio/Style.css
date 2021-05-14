@@ -4,7 +4,7 @@
 }
 
 #wrapper {
-    min-height: 944px;
+    min-height: 1000px;
     width: 1120px;
     background-color: #6F5964;
 }
@@ -55,13 +55,42 @@
 }
 
 .info {
-    height: 310px;
+    height: 540px;
     width: 334px;
     background-color: #DDCFDC;
     margin: 20px 0px 0px 0px
 }
 
+.tools {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 0px 120px 0px 120px;
+    padding: 2px 2px 2px 2px;
+    border: solid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 img {
     height: 150px;
     width: 334px;
+}
+
+p {
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
 }
