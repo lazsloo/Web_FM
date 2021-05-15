@@ -32,12 +32,17 @@
     border-color: #C0C0C0;
 }
 
+/* Wicked formatting */
+.wicked {
+    padding: 0px 0px 0px 10px;
+}
+
 /* Wrapper for the about me/bro section */
 #about {
     height: 310px;
     width: 537px;
     margin: 30px 0px 0px 30px;
-    background-color: #DDCFDC;
+    background-image: linear-gradient(to right, #FAF9FA, #DACBD9);
     display: inline-block;
     vertical-align: top;
 }
@@ -45,8 +50,9 @@
 /* h2 titles in the grey boxes above pink boxes */
 .desc {
     height: 20px;
-    width: auto 0;
+    width: auto;
     padding: 10px;
+    color: #FEFDFA;
     background-color: #888794;
     display: flex;
     align-items: center;
@@ -55,12 +61,12 @@
 /* h2 titles for the tools used/shit I used with some fine tuning *START*/
 .desc2 {
     height: 20px;
-    width: auto 0;
+    width: auto;
     padding: 10px;
+    color: #FEFDFA;
     background-color: #888794;
     display: flex;
     align-items: center;
-    text-align: center;
 }
 .tune1 {
     margin: 0px 0px 108px 0;
@@ -83,11 +89,8 @@
 .info {
     height: 640px;
     width: 334px;
-    background-color: #DDCFDC;
+    background-image: linear-gradient(to right, #FAF9FA, #DACBD9);
     margin: 20px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
 }
 
 /* coding langauges used formatting "START" */
@@ -95,7 +98,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 .tools2 {
     height: 40px;
     width: 40px;
@@ -108,10 +110,13 @@
     width: 100px;
     display: flex;
     justify-content: center;
-    margin: 0px 120px 0px 120px;
+    margin: 0px 112px 0px 112px;
     padding: 2px;
-    border: solid;
+    border: solid 1px;
+    background-color: #407D61;
+    border-color: black;
     border-radius: 10px;
+    color: #F6F6F6;
     text-decoration: none;
 }
 
@@ -124,18 +129,22 @@
     text-align: center;
 }
 
-/* Footer contacts */
-.links {
+/* Footer contacts *START* */
+#links{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
-
+.links2 {
+    display: flex;
+}
+/* Footer contacts *START* *
 
 /* Social images */
 .social {
     height: 20px;
     width: 20px;
+    margin: 0px 4px 0px 4px;
 }
 
 ul{
@@ -154,4 +163,8 @@ p {
 
 ul li {
     list-style: none;
+}
+
+a {
+    color: black;
 }
