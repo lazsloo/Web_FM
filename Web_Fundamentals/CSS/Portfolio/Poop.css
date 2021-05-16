@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+#wrapper {
+    width: 970px;
+    /* border: dotted; */
+    background-color: red;
+}
+
+#main {
+    background-color: blue;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: dotted; */
+}
+
+#profilepic {
+    width: 410px;
+}
+
+#about {
+    display: flex;
+    /* border: dotted; */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#about-me {
+    width: 470px;
+    /* border: dotted; */
+    background-color: greenyellow;
+}
+
+#about-me h2 {
+    background-color: turquoise;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    /* border: dotted; */
+    padding: 20px;
+}
+
+.sub-content {
+    height: 550px;
+    width: 300px;
+    background-color: brown;
+    /* border: dotted; */
+}
+
+.sub-content img {
+    height: 200px;
+    width: 300px;
+}
+
+.sub-content h2 {
+    background-color: turquoise;
+}
+
+.sub-content h3 {
+    margin: 20px 0px 0px 0px;
+    background-color: turquoise;
+}
+
+.sub-content button {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 125px;
+    font-weight: 900px;
+
+    /* gets rid of the wrapping for the button */
+    white-space: nowrap;
+}
+
+.sub-content .icons {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer-links img {
+    height: 10px;
+    width: 10px;
+}
