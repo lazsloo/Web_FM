@@ -1,0 +1,14 @@
+.mybox {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #EEEEEE;
+  }
+  
+  .mybox:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    width: 50%;
+    border-bottom: 1px solid #0000CC;
+  }
