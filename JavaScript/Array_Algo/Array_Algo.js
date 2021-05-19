@@ -16,7 +16,6 @@ for(var i = 0; i < testArr.length; i++) {
     console.log('num:', testArr[i], 'sum:', sum)
 }
 
-
 // Value * Position
 
 // 1. Multiply each value in the array by its array position
