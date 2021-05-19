@@ -1,4 +1,7 @@
-var arr = [8,6,7,5,3,0,9]
-for(var i = 0; i < arr.length; i++){    
-    console.log(arr[i]);
-}
+function counter() {    
+        for (var num = 0; num <= 5; num++) {        
+            console.log(num);    
+        }
+    }
+    counter();    // run the function
+    counter();    // run the function again
