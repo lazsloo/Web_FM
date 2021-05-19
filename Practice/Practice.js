@@ -1,7 +1,8 @@
-function counter() {    
-        for (var num = 0; num <= 5; num++) {        
-            console.log(num);    
-        }
+function createArray(num) {        
+        var newArray = [];        
+        for (var i = 0; i <= num; i++) {                
+            newArray.push(i);        
+        }        
+        return newArray;        // added the return statement
     }
-    counter();    // run the function
-    counter();    // run the function again
+    var y = createArray(5);        // now y is the variable that is calling on createArray
