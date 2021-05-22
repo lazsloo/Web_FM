@@ -6,3 +6,4 @@ var info = 0
 for(var personInfo in users) {
     console.log(users[personInfo].name + " - " + users[personInfo].age)
 }
+console.log(users.length)
