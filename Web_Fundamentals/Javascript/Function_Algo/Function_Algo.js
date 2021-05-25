@@ -48,19 +48,27 @@
 
 // 5.) Find max - Given an array with multiple values, write a function that returns the maximum number in the array. (e.g. for [-3,3,5,7] max is 7)
 
-function max(arr) {
-    var max = arr[0];
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
-    }
-    return max;
-}
+// function max(arr) {
+//     var max = arr[0];
+//     for (var i = 0; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
 
-console.log(max([-3, 3, 5, 7]));
+// console.log(max([-3, 3, 5, 7]));
 
 // 6.) Find average - Given an array with multiple values, write a function that returns the average of the values in the array. (e.g. for [1,3,5,7,20] average is 7.2)
+
+function avg(total) {
+for(var i = 0; i < grades.length; i++) {
+    total += grades[i];
+}
+var avg = total / grades.length;
+}
+console.log(avg[1, 3, 5, 7, 20])
 
 // 7.) Array odd - Write a function that would return an array of all the odd numbers between 1 to 50. (ex. [1,3,5, .... , 47,49]). Hint: Use 'push' method.
 
