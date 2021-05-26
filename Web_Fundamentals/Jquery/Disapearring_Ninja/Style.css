@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+#wrapper {
+    width: 970px;
+}
+
+#main {
+    display: inline-block;
+}
+
+.beah {
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 405px;
+    cursor: pointer;
+}
