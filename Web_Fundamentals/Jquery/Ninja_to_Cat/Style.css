@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+#wrapper {
+    width: 200px;
+    display: block;
+}
+
+img {
+    cursor: pointer;
+}

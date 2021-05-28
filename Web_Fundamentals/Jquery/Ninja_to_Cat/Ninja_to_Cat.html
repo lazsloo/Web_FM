@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('img').click(function () {
+                console.log('data-alt-src value is', $(this).attr('data-alt-src'));
+
+                $('#top').click(function () {
+                    $(this).attr('src', 'cat0.png');
+                });
+                $('#head').click(function () {
+                    $(this).attr('src', 'cat1.png');
+                });
+                $('#face').click(function () {
+                    $(this).attr('src', 'cat2.png');
+                });
+                $('#body').click(function () {
+                    $(this).attr('src', 'cat3.png');
+                });
+                $('#feet').click(function () {
+                    $(this).attr('src', 'cat4.png');
+                });
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="Style.css">
+    <title>Deez Ninjas</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <img id='top' src="ninja0.png" data-alt-src='cat0.png'>
+        <img id='head' src="ninja1.png" data-alt-src='cat1.png'>
+        <img id='face' src="ninja2.png" data-alt-src='cat2.png'>
+        <img id='body' src="ninja3.png" data-alt-src='cat3.png'>
+        <img id="feet" src="ninja4.png" data-alt-src='cat4.png'>
+    </div>
+</body>
+
+</html>
